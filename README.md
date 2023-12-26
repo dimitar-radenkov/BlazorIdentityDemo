@@ -1,0 +1,1 @@
+This project demonstrates the integration of Blazor WebAssembly (hosted) with Identity Server 4 as a standalone microservice. It's designed to showcase how to configure a Blazor application to authenticate using a separate Identity Server, handling common challenges such as token validation and secure communication
