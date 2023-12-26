@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BlazorIdentityDemo.Data/bin/Debug/net6.0
+/BlazorIdentityDemo.Data/obj
+/BlazorIdentityDemo.Identity/bin/Debug/net6.0
+/BlazorIdentityDemo.Identity/obj
+/BlazorIdentityDemo.Web/Client/bin/Debug/net6.0
+/BlazorIdentityDemo.Web/Client/obj
+/BlazorIdentityDemo.Web/Server/bin/Debug/net6.0
+/BlazorIdentityDemo.Web/Server/obj
+/BlazorIdentityDemo.Web/Shared/bin/Debug/net6.0
+/BlazorIdentityDemo.Web/Shared/obj
+/BlazorIdentityDemo.WebApi/bin/Debug/net6.0
+/BlazorIdentityDemo.WebApi/obj

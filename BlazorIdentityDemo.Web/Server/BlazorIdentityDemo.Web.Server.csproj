@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>BlazorIdentityDemo.Web.Server-ce4399db-68ee-4afa-8e88-966ba2513fcf</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.24" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BlazorIdentityDemo.Data\BlazorIdentityDemo.Data.csproj" />
+    <ProjectReference Include="..\Client\BlazorIdentityDemo.Web.Client.csproj" />
+    <ProjectReference Include="..\Shared\BlazorIdentityDemo.Web.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.24" />
+  </ItemGroup>
+
+</Project>
